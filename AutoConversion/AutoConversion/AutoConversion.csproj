@@ -81,10 +81,6 @@
     <None Include="AutoConversion_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="logo.ico" />
-    <Content Include="viewfile.png" />
-  </ItemGroup>
-  <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.5.2">
       <Visible>False</Visible>
       <ProductName>Microsoft .NET Framework 4.5.2 %28x86 和 x64%29</ProductName>
