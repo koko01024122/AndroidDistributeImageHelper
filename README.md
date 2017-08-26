@@ -1,0 +1,2 @@
+# AndroidDistributeImageHelper
+Android国内多渠道分发Logo、宣传图转换助手
