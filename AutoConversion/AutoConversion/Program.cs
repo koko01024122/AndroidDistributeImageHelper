@@ -390,18 +390,9 @@ namespace AutoConversion
 
         static void initAds()
         {
-            advertising yybAds1 = new advertising("应用宝", 800, 480, 1024);
-            advList.Add(yybAds1);
+            advertising yybAds1 = new advertising("800x480", 800, 480, 1024);
+            advList.Add(yybAds1);       
 
-            advertising Ads1360 = new advertising("360", 800, 480, 3072);
-            advList.Add(Ads1360);
-            advertising azAds1 = new advertising("安智市场", 800, 480, 2048);
-            advList.Add(azAds1);
-
-            advertising lxAds1 = new advertising("华为", 800, 480, 2048);
-            advList.Add(lxAds1);
-            advertising jlAds1 = new advertising("金立", 800, 480, 1024);
-            advList.Add(jlAds1);
         }
 
 
@@ -460,11 +451,11 @@ namespace AutoConversion
 
         static void initLogos()
         {
-            logoimage yybLogoimage = new logoimage("应用宝大图标.png", 512, 200, 0);
-            logoimage yybminLogoimage = new logoimage("应用宝小图标.png", 16, 20, 0);
-            logoimage logoimage360 = new logoimage("360大图标.png", 512, 200, 70);
-            logoimage huaweilogoimage = new logoimage("华为大图标.png", 216, 200, 70);
-            logoimage lianxianglogoimage = new logoimage("联想大图标.png", 256, 200, 70);
+            logoimage yybLogoimage = new logoimage("512直角.png", 512, 200, 0);
+            logoimage yybminLogoimage = new logoimage("16直角.png", 16, 20, 0);
+            logoimage logoimage360 = new logoimage("512圆角.png", 512, 200, 70);
+            logoimage huaweilogoimage = new logoimage("216直角.png", 216, 200, 70);
+            logoimage lianxianglogoimage = new logoimage("256直角.png", 256, 200, 70);
             logoList.Add(yybLogoimage);
             logoList.Add(yybminLogoimage);
             logoList.Add(logoimage360);
